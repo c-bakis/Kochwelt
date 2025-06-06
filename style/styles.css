@@ -1,0 +1,19 @@
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(../assets/font/static/Raleway-Light.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url(../assets/font/static/Raleway-Bold.ttf) format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+

@@ -1,0 +1,114 @@
+
+:root {
+    --secondary-background-color: #f0f0f0;
+    --primary-background-color: #ffffff;
+    --primary-color: #0c9200fd;
+    --secondary-color: #f0f0f0;
+    --text-color: #333;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    color: var(--text-color);
+    margin: 30px 150px 0 150px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+}
+.recipe-img {
+    width: 100%;
+    height: 240px;
+    object-fit:cover;
+    border-radius: 10px;
+    object-position: 100% 60%;
+}
+.tags {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+}
+.tag {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 15px;
+    background-color: var(--secondary-background-color);
+    border-radius: 10px;
+    color: var(--text-color);
+}
+.icon {
+    width: 15px;
+    height: 15px;
+    margin-right: 8px;
+    object-fit: contain;
+    vertical-align: middle;
+    border-radius: 0;
+}
+
+form {
+    border-top: 1px solid var(--secondary-background-color);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+input[type="number"] {
+    width: 120px;
+    padding: 10px;
+    border: 1px solid var(--secondary-background-color);
+    border-radius: 10px 0 0 10px;
+}
+
+.button[type="submit"] {
+    background-color: var(--primary-color);
+    color: var(--primary-background-color);
+    cursor: pointer;
+    padding : 10px 36px;
+    border: none;
+    border-radius: 1px;
+}
+.no-margin-right {
+    margin-right: -5px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+tbody tr td {
+    padding: 10px 0 10px 10px;
+}
+tbody tr:nth-child(odd) {
+    background-color: var(--secondary-background-color);
+}
+.left-td {
+    width: 15%;
+    border-radius: 10px 0 0 10px;
+    text-align: right;
+}
+.right-td {
+    border-radius: 0 10px 10px 0;
+}
+
+section#creator {
+    margin-bottom: 100px;
+}
+div.creator {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 15px;
+}
+.creator-info {
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding-left: 30px;
+}
+.creator-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid var(--secondary-background-color);
+}
