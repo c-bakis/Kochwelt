@@ -6,13 +6,14 @@
     <title>Document</title>
     <link rel="stylesheet" href="recipe.css" />
     <link rel="stylesheet" href="../style/styles.css">
+    <link rel="shortcut icon" href="../assets/img/logo_small.png" type="image/png">
   </head>
   <body>
     <section id="head">
-      <h1>Hähnchen-Annanas-Curry</h1>
+      <h1>Hähnchencurry</h1>
       <img class="recipe-img" src="../assets/img/curry.jpg" alt="" />
       <div class="tags">
-        <span class="tag"><img class="icon" src="../assets/img/clock-regular.svg" alt="Zeitaufwand">25 Min.</span>
+        <span class="tag first-tag"><img class="icon" src="../assets/img/clock-regular.svg" alt="Zeitaufwand">25 Min.</span>
         <span class="tag"><img class="icon" src="../assets/img/brain-solid.svg" alt="Schwierigkeitsgrad">simpel</span>
         <span class="tag"><img class="icon" src="../assets/img/calendar-alt-regular.svg" alt="Rezept erstellt am">08.06.2025</span>
       </div>
@@ -32,7 +33,7 @@
         <button class="button" type="submit">Portionen</button>
       </form>
       <table>
-        <tbody>
+        <tbody class="list-of-ingredients">
            <tr>
                 <td class="left-td"><span class="amount-of-ingredient">250</span> g</td>
                 <td class="right-td">Hähnchenbrust</td>
@@ -95,14 +96,34 @@
       </table>
     </section>
 
+    <section id="nutritional-values">
+      <h2>Nährwerte pro Portion</h2>
+      <table class="nutritional-values-table">
+        <tbody>
+          <tr class="nutritional-values">
+            <th class="border-right">kcal</th>
+            <th class="border-right">Eiweiß</th>
+            <th class="border-right">Fett</th>
+            <th>Kohlenhydrate</th>
+          </tr>
+          <tr class="nutritional-values">
+            <td class="border-right">712</td>
+            <td class="border-right">45,73</td>
+            <td class="border-right">49,90</td>
+            <td>20,14</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
     <section id="preparation">
       <h2>Zubereitung</h2>
       <div class="tags">
-        <span class="tag"><img class="icon" src="../assets/img/clock-regular.svg" alt="Zeit">ca. 25 Minuten</span>
+        <span class="tag first-tag"><img class="icon" src="../assets/img/clock-regular.svg" alt="Zeit">ca. 25 Minuten</span>
         <span class="tag"><img class="icon" src="../assets/img/clock-regular.svg" alt="Zeit">Gesamtzeit ca. 25 Minuten</span>
       </div>
       <p class="preparation">
-        Reis nach Packungsanweisung kochen
+        Reis nach Packungsanweisung kochen.
         Den Blumenkohl in kochendem Salzwasser ca. 5 Minuten garen.
         Dann abgießen und beiseite stellen.
       </p>

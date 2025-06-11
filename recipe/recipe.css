@@ -15,6 +15,9 @@ section {
     color: var(--text-color);
     margin: 30px 150px 0 150px;
 }
+#recipe, #nutritional-values {
+    padding-bottom: 20px;
+}
 
 h1 {
     font-size: 2.5rem;
@@ -29,7 +32,7 @@ h1 {
 }
 .tags {
     padding-top: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
     
 }
 .tag {
@@ -39,6 +42,9 @@ h1 {
     background-color: var(--secondary-background-color);
     border-radius: 10px;
     color: var(--text-color);
+}
+.first-tag {
+    margin-bottom: 10px;
 }
 .icon {
     width: 15px;
@@ -76,10 +82,10 @@ table {
     width: 100%;
     border-collapse: collapse;
 }
-tbody tr td {
+tbody.list-of-ingredients tr td {
     padding: 10px 0 10px 10px;
 }
-tbody tr:nth-child(odd) {
+tbody.list-of-ingredients tr:nth-child(odd) {
     background-color: var(--secondary-background-color);
 }
 .left-td {
@@ -111,4 +117,68 @@ div.creator {
     object-fit: cover;
     border-radius: 50%;
     border: 2px solid var(--secondary-background-color);
+}
+
+.nutritional-values-table {
+    margin-top: 30px;
+}
+.nutritional-values {
+    text-align: center;
+}
+.nutritional-values td {
+    width: 10%;
+    padding: 10px;
+}
+
+.nutritional-values .border-right {
+    border-right: 2px solid var(--secondary-background-color);
+}
+h2 {
+    padding-top: 20px;
+    border-top: 1px solid var(--secondary-background-color);
+}
+
+@media screen and (max-width: 1000px) {
+    .left-td {
+        width: 30%;
+    }
+    
+}
+
+@media  (max-width: 800px) {
+    section{
+        margin: 30px 100px 0 100px
+    }
+}
+
+@media  (max-width: 600px) {
+    section{
+        margin: 30px 50px 0 50px
+    }
+    .creator-info {
+        font-size: 1.2rem;
+    }
+    .creator-img {
+        width: 60px;
+        height: 60px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+@media  (max-width: 480px) {
+    section{
+        margin: 30px 20px 0 20px
+    }
+    .creator-img {
+        width: 50px;
+        height: 50px;
+    }
+}
+@media  (max-width: 412px) {
+    label {
+        display: block;
+        padding-bottom: 5px;
+    }
 }
