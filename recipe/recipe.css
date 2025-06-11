@@ -3,6 +3,7 @@
     --secondary-background-color: #f0f0f0;
     --primary-background-color: #ffffff;
     --primary-color: #008000;
+    --button-hover-color: #006d00;
     --secondary-color: #f0f0f0;
     --text-color: #333;
 }
@@ -83,6 +84,9 @@ input[type="number"] {
     padding : 10px 50px;
     border: none;
     border-radius: 1px;
+}
+.button[type="submit"]:hover {
+    background-color: var(--button-hover-color);
 }
 .no-margin-right {
     margin-right: -5px;
@@ -196,7 +200,7 @@ h2 {
         font-size: 1rem;
     }
     input[type="number"] {
-        font-size: 1.1rem;
+        font-size: 1rem;
         width: 100px;
     }
 
