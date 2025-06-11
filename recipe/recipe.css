@@ -2,7 +2,7 @@
 :root {
     --secondary-background-color: #f0f0f0;
     --primary-background-color: #ffffff;
-    --primary-color: #0c9200fd;
+    --primary-color: #008000;
     --secondary-color: #f0f0f0;
     --text-color: #333;
 }
@@ -11,9 +11,15 @@
     padding: 0;
 }
 
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
 section {
     color: var(--text-color);
     margin: 30px 150px 0 150px;
+    font-size: 1.25rem;
 }
 #recipe, #nutritional-values {
     padding-bottom: 20px;
@@ -61,6 +67,8 @@ form {
     padding-bottom: 20px;
 }
 input[type="number"] {
+    font-size: 1.25rem;
+    text-align: center;
     width: 120px;
     padding: 10px;
     border: 1px solid var(--secondary-background-color);
@@ -70,8 +78,9 @@ input[type="number"] {
 .button[type="submit"] {
     background-color: var(--primary-color);
     color: var(--primary-background-color);
+    font-size: 1.25rem;
     cursor: pointer;
-    padding : 10px 36px;
+    padding : 10px 50px;
     border: none;
     border-radius: 1px;
 }
@@ -120,13 +129,15 @@ div.creator {
 }
 
 .nutritional-values-table {
-    margin-top: 30px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 30px 0 0 0;;
 }
 .nutritional-values {
     text-align: center;
 }
 .nutritional-values td {
-    width: 10%;
+    width: 25%;
     padding: 10px;
 }
 
@@ -142,12 +153,25 @@ h2 {
     .left-td {
         width: 30%;
     }
+    .nutritional-values td {
+        width: 10%;
+    }
     
 }
 
 @media  (max-width: 800px) {
     section{
+        font-size: 1.2rem;
         margin: 30px 100px 0 100px
+    }
+    input[type="number"] {
+        font-size: 1.2rem;
+        width: 100px;
+    }
+
+    .button[type="submit"]  {
+        font-size: 1.2rem;
+        padding: 10px 36px;
     }
 }
 
@@ -167,6 +191,20 @@ h2 {
     }
 }
 
+@media  (max-width: 500px) {
+    section{
+        font-size: 1rem;
+    }
+    input[type="number"] {
+        font-size: 1.1rem;
+        width: 100px;
+    }
+
+    .button[type="submit"]  {
+        font-size: 1rem;
+        padding: 10px 36px;
+    }
+}
 @media  (max-width: 480px) {
     section{
         margin: 30px 20px 0 20px
@@ -180,5 +218,8 @@ h2 {
     label {
         display: block;
         padding-bottom: 5px;
+    }
+    input[type="number"] {
+        width: 30%;
     }
 }
