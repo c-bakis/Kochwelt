@@ -7,10 +7,7 @@
     --secondary-color: #f0f0f0;
     --text-color: #333;
 }
-* {
-    margin: 0;
-    padding: 0;
-}
+
 
 body {
     max-width: 1920px;
@@ -81,7 +78,7 @@ input[type="number"] {
     color: var(--primary-background-color);
     font-size: 1.25rem;
     cursor: pointer;
-    padding : 10px 50px;
+    padding : 11px 50px;
     border: none;
     border-radius: 1px;
 }
@@ -89,7 +86,7 @@ input[type="number"] {
     background-color: var(--button-hover-color);
 }
 .no-margin-right {
-    margin-right: -5px;
+    margin-right: -4px;
 }
 table {
     width: 100%;
@@ -175,7 +172,7 @@ h2 {
 
     .button[type="submit"]  {
         font-size: 1.2rem;
-        padding: 10px 36px;
+        padding: 11px 36px;
     }
 }
 
@@ -206,7 +203,7 @@ h2 {
 
     .button[type="submit"]  {
         font-size: 1rem;
-        padding: 10px 36px;
+        padding: 11px 36px;
     }
 }
 @media  (max-width: 480px) {

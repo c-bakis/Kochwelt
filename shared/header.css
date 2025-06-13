@@ -1,0 +1,25 @@
+
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.nav-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;   
+    list-style: none;
+    gap: 20px;
+}
+
+link {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 600;
+}
