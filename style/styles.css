@@ -1,4 +1,12 @@
 
+:root {
+    --secondary-background-color: #f0f0f0;
+    --primary-background-color: #ffffff;
+    --primary-color: #008000;
+    --button-hover-color: #006d00;
+    --secondary-color: #f0f0f0;
+    --text-color: #333;
+}
 @font-face {
     font-family: 'Raleway';
     src: url(../assets/font/static/Raleway-Light.ttf) format('truetype');
@@ -21,4 +29,57 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+section {
+    color: var(--text-color);
+    margin: 30px 80px 30px 80px;
+    font-size: 1.25rem;
+}
+.recipe-of-the-day-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+img.curry {
+    width: 300px;
+    height: 200px;
+    object-fit:cover;
+    border-radius: 10px;
+    object-position: 100% 60%;
+}
+.recipe-of-the-day {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+h2 {
+    margin: 0 0 20px 0;
+}
 
+p {
+    margin: 0 0 50px 0;
+}
+
+button[type="submit"] {
+    width: 200px;
+    background-color: var(--primary-color);
+    color: var(--primary-background-color);
+    font-size: 1rem;
+    cursor: pointer;
+    padding : 10px 24px;
+    border: none;
+    border-radius: 1px;
+}
+
+
+button[type="submit"]:hover {
+    background-color: var(--button-hover-color);
+}
+
+img.recipe-new-section {
+    width: 100px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    object-position: 100% 60%;
+}
