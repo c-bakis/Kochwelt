@@ -1,13 +1,4 @@
 
-:root {
-    --secondary-background-color: #f0f0f0;
-    --primary-background-color: #ffffff;
-    --primary-color: #008000;
-    --button-hover-color: #006d00;
-    --secondary-color: #f0f0f0;
-    --text-color: #333;
-}
-
 
 body {
     max-width: 1920px;
@@ -65,7 +56,7 @@ form {
     padding-bottom: 20px;
 }
 input[type="number"] {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     text-align: center;
     width: 120px;
     padding: 10px;
@@ -73,18 +64,6 @@ input[type="number"] {
     border-radius: 10px 0 0 10px;
 }
 
-.button[type="submit"] {
-    background-color: var(--primary-color);
-    color: var(--primary-background-color);
-    font-size: 1.25rem;
-    cursor: pointer;
-    padding : 11px 50px;
-    border: none;
-    border-radius: 1px;
-}
-.button[type="submit"]:hover {
-    background-color: var(--button-hover-color);
-}
 .no-margin-right {
     margin-right: -4px;
 }
@@ -166,19 +145,23 @@ h2 {
         margin: 30px 100px 0 100px
     }
     input[type="number"] {
-        font-size: 1.2rem;
+        font-size: 1rem;
         width: 100px;
     }
 
     .button[type="submit"]  {
-        font-size: 1.2rem;
-        padding: 11px 36px;
+        font-size: 1rem;
+        padding: 11px 30px;
     }
 }
 
-@media  (max-width: 600px) {
+@media  (max-width: 640px) {
     section{
         margin: 30px 50px 0 50px
+    }
+    label {
+        display: block;
+        padding-bottom: 5px;
     }
     .creator-info {
         font-size: 1.2rem;
@@ -194,16 +177,18 @@ h2 {
 
 @media  (max-width: 500px) {
     section{
-        font-size: 1rem;
+        font-size: 0.875rem;
+        margin: 30px 30px 0 30px;
     }
     input[type="number"] {
-        font-size: 1rem;
-        width: 100px;
+        font-size: 0.875rem;
+        width: 30%;
     }
 
     .button[type="submit"]  {
-        font-size: 1rem;
+        font-size: 0.875rem;
         padding: 11px 36px;
+        width: 50%;
     }
 }
 @media  (max-width: 480px) {
@@ -216,11 +201,7 @@ h2 {
     }
 }
 @media  (max-width: 412px) {
-    label {
-        display: block;
-        padding-bottom: 5px;
-    }
     input[type="number"] {
-        width: 30%;
+        width: 20%;
     }
 }

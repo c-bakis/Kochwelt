@@ -29,7 +29,7 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-section {
+section#recipe-of-the-day {
     color: var(--text-color);
     margin: 30px 80px 30px 80px;
     font-size: 1.25rem;
@@ -58,22 +58,6 @@ h2 {
 
 p {
     margin: 0 0 50px 0;
-}
-
-button[type="submit"] {
-    width: 200px;
-    background-color: var(--primary-color);
-    color: var(--primary-background-color);
-    font-size: 1rem;
-    cursor: pointer;
-    padding : 10px 24px;
-    border: none;
-    border-radius: 1px;
-}
-
-
-button[type="submit"]:hover {
-    background-color: var(--button-hover-color);
 }
 
 img.recipe-new-section {

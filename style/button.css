@@ -1,0 +1,17 @@
+
+
+button[type="submit"] {
+    width: 200px;
+    background-color: var(--primary-color);
+    color: var(--primary-background-color);
+    font-size: 1rem;
+    cursor: pointer;
+    padding : 12px 24px;
+    border: none;
+    border-radius: 1px;
+}
+
+
+button[type="submit"]:hover {
+    background-color: var(--button-hover-color);
+}
