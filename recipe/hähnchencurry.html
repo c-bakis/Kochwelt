@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hähnchencurry</title>
+    <link rel="stylesheet" href="recipe.css" />
+    <link rel="stylesheet" href="../style/styles.css">
+    <link rel="shortcut icon" href="../assets/img/logo_small.png" type="image/png">
+  </head>
+  <body>
+    <section id="head">
+      <h1>Hähnchencurry</h1>
+      <img class="recipe-img" src="../assets/img/curry.jpg" alt="" />
+      <div class="tags">
+        <span class="tag first-tag"><img class="icon" src="../assets/img/clock-regular.svg" alt="Zeitaufwand">25 Min.</span>
+        <span class="tag"><img class="icon" src="../assets/img/brain-solid.svg" alt="Schwierigkeitsgrad">simpel</span>
+        <span class="tag"><img class="icon" src="../assets/img/calendar-alt-regular.svg" alt="Rezept erstellt am">08.06.2025</span>
+      </div>
+    </section>
+
+    <section id="recipe">
+      <form action="" onsubmit="multiplyAmount(); return false;">
+        <label for="portions">Zutaten für </label>
+        <input class="no-margin-right"
+          type="number"
+          id="portions"
+          name="portions"
+          value="2"
+          min="1"
+          max="99"
+        />
+        <button class="button" type="submit">Portionen</button>
+      </form>
+      <table>
+        <tbody class="list-of-ingredients">
+           <tr>
+                <td class="left-td"><span class="amount-of-ingredient">250</span> g</td>
+                <td class="right-td">Hähnchenbrust</td>
+            </tr>
+            <tr>
+                <td class="left-td"><span class="amount-of-ingredient">2</span></td>
+                <td class="right-td">Frühlingszwiebel(n)</td>
+            </tr>
+            <tr>
+                <td class="left-td"><span class="amount-of-ingredient">2</span></td>
+                <td class="right-td">Knoblauchzehe(n)</td>
+            </tr>
+            <tr>
+                <td class="left-td"><span class="amount-of-ingredient">1</span></td>
+                <td class="right-td">Chillishote(n)</td>
+            </tr>
+            <tr>
+                <td class="left-td"><span class="amount-of-ingredient">150</span>g</td>
+                <td class="right-td">Blumenkohlröschen</td>
+            </tr>
+            <tr>
+                <td class="left-td"><span class="amount-of-ingredient">100</span> ml</td>
+                <td class="right-td">Sahne</td>
+            </tr>
+            <tr>
+                <td class="left-td"><span class="amount-of-ingredient">100</span> ml</td>
+                <td class="right-td">Brühe</td>
+            </tr>
+            <tr>
+                <td class="left-td"><span class="amount-of-ingredient">1</span>  Dose</td>
+                <td class="right-td">Annanas</td>
+            </tr>
+            <tr>
+                <td class="left-td"><span class="amount-of-ingredient">1</span> El</td>
+                <td class="right-td">Honig</td>
+            </tr>
+            <tr>
+                <td class="left-td"><span class="amount-of-ingredient">3</span> TL</td>
+                <td class="right-td">Currypulver</td>
+            </tr>
+            <tr>
+                <td class="left-td"><span class="amount-of-ingredient">2</span> Beutel</td>
+                <td class="right-td">Reis</td>
+            </tr>
+            <tr>
+                <td class="left-td"> etwas</td>
+                <td class="right-td">Öl</td>
+            </tr>
+            <tr>
+                <td class="left-td">evtl.</td>
+                <td class="right-td">etwas Speisestärke zum Andicken</td>
+            </tr>
+                <td class="left-td"></td>
+                <td class="right-td">Kräuter nach Wahl (zB. Petersilie)</td>
+            </tr>
+                <td class="left-td"></td>
+                <td class="right-td">Salz und Pfeffer</td>
+            </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="nutritional-values">
+      <h2>Nährwerte pro Portion</h2>
+      <table class="nutritional-values-table">
+        <tbody>
+          <tr class="nutritional-values">
+            <th class="border-right">kcal</th>
+            <th class="border-right">Eiweiß</th>
+            <th class="border-right">Fett</th>
+            <th>Kohlenhydrate</th>
+          </tr>
+          <tr class="nutritional-values">
+            <td class="border-right">712</td>
+            <td class="border-right">45,73 g</td>
+            <td class="border-right">49,90 g</td>
+            <td>20,14 g</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="preparation">
+      <h2>Zubereitung</h2>
+      <div class="tags">
+        <span class="tag first-tag"><img class="icon" src="../assets/img/clock-regular.svg" alt="Zeit">ca. 25 Minuten</span>
+        <span class="tag"><img class="icon" src="../assets/img/clock-regular.svg" alt="Zeit">Gesamtzeit ca. 25 Minuten</span>
+      </div>
+      <p class="preparation">
+        Reis nach Packungsanweisung kochen.
+        Den Blumenkohl in kochendem Salzwasser ca. 5 Minuten garen.
+        Dann abgießen und beiseite stellen.
+      </p>
+      <br>
+      <p class="preparation">
+        Das Fleisch waschen und in Würfel schneiden. 
+        Chillischoten und Frühlingszwiebeln in Ringe schneiden und den Knoblauch
+         fein hacken.
+        Fleisch mit etwas Öl in der Pfanne anbraten.
+        Wenn es anfängt Farbe zu bekommen, Honig dazugeben und eine Minute weiterbraten.
+        Einen Teil Chilli zum garnieren zur Seite legen.
+        Blumenkohl, restliche Chilli, Frühlingszwiebeln und den Knoblauch mit
+        in die Pfanne geben.
+        Annanas abtropfen lassen und den Saft dabei auffangen.
+        Dann die Annanas mit in die Pfanne geben und kurz anschwitzen.
+        Das Curry dazugeben und alles kurz durchrösten.
+      </p>
+      <br>
+      <p class="preparation">
+        Mit Sahne und Brühe ablöschen.
+        Die Sauce auf schwacher Stufe ca. 5 Minuten köcheln lassen, gelegentlich umrühren.
+        Mit Salz, Pfeffer und dem Ananassaft
+         nach Belieben abschmecken. 
+        Nach Bedarf mit Speisestärke andicken.
+         Zusammen mit dem Reis in Schüsseln servieren und
+         mit dem restlichen Chilli und den Kräutern dekorieren.
+      </p>
+    </section>
+
+    <section id="creator">
+      <h3>Rezept erstellt von</h3>
+      <div class="creator">
+        <img class="creator-img" src="../assets/img/creator-c.jpg" alt="Creator Image" />
+          <h4 class="creator-info">Christina</h4>
+    </section>
+  </body>
+  <script src="amountsOfIngredients.js"></script>
+</html>
