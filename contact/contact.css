@@ -1,10 +1,19 @@
 
-#contact-form {
-    margin: 100px auto;
-    width: fit-content;
+body {
+    box-sizing: border-box;
+    margin: 150px;
+    max-width: 1920px;
+}
+.contact-form-container {
+    margin: 0;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
+}
+#contact-form, .success-message-div {
+    max-width: 800px;
+    margin: 0;
+    width: 100%;
     padding: 20px;
     background-color: var(--secondary-background-color);
     border-radius: 10px;
@@ -13,45 +22,81 @@
 h2 {
     margin-bottom: 20px;
     font-size: 1.75rem;
-    color: var(--primary-text-color);
+    color: var(--text-color);
+}
+
+label {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    color: var(--text-color);
 }
 
 input, textarea {
-    width: 500px;
-    padding: 10px;
-    margin-bottom: 25px;
+    width: 95%;
+    padding: 5px 10px;
+    margin: 10px 0;
     border: 1px solid var(--secondary-background-color);
     border-radius: 10px;
     font-size: 1rem;
 }
+textarea {
+    min-height: 150px;
+}
 
-button[type="submit"] {
+button[type="submit"], a {
     margin: 0 auto;
+    display: block;
+}
+
+.success-message {
+    font-size: 1.25rem;
+    color: var(--text-color);
+    padding: 20px;
+    text-align:center;
 }
 
 @media screen and (max-width: 800px) {
 
-    input, textarea {
-        width: 400px;
+    body {
+        margin: 120px;
     }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 602px) {
 
-    input, textarea {
-        width: 300px;
+    body {
+        margin: 100px;
     }
-    button[type="submit"]  {
-        font-size: 0.875rem;
-        padding: 12px 20px;
+    #contact-form, .success-message {
+        font-size: 1.1rem;
+    }}
+@media screen and (max-width: 550px) {
+
+    textarea {
+        min-height: 100px;
     }
 }
 @media screen and (max-width: 450px) {
+
+    body {
+        margin: 60px;
+    }
+    #contact-form, .success-message {
+        font-size: 0.95rem;
+    }
+    input, textarea {
+        font-size: 0.95rem;
+    }
+    h2 {
+        font-size: 1.35rem;
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 370px) {
 
     #contact-form {
         font-size: 0.875rem;;
     }
     input, textarea {
-        width: 220px;
         font-size: 0.875rem;;
     }
     h2 {
@@ -59,9 +104,9 @@ button[type="submit"] {
         margin-bottom: 15px;
     }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 350px) {
 
-    input, textarea {
-        width: 200px;
+    body {
+        margin: 50px;
     }
 }

@@ -1,25 +1,27 @@
 
 
-button[type="submit"] {
+button[type="submit"], a {
     width: 200px;
-    background-color: var(--primary-color);
+    background-color: var(--button-color);
     color: var(--primary-background-color);
     font-size: 1rem;
     cursor: pointer;
     padding : 12px 24px;
     border: none;
     border-radius: 1px;
+    text-decoration: none;
+    text-align: center;
 }
 
 
-button[type="submit"]:hover {
+button[type="submit"]:hover, a:hover {
     background-color: var(--button-hover-color);
 }
 
 @media screen and (max-width: 600px) {
 
 
-    button[type="submit"]  {
+    button[type="submit"], a {
         font-size: 0.875rem;
         width: 175px;
     }
@@ -27,7 +29,7 @@ button[type="submit"]:hover {
 @media screen and (max-width: 350px) {
 
 
-    button[type="submit"]  {
+    button[type="submit"], a {
         width: 160px;
     }
 }
