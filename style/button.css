@@ -1,6 +1,6 @@
+/* Style for buttons and links */
 
-
-button[type="submit"], a {
+button[type="submit"], a.button {
     width: 200px;
     background-color: var(--button-color);
     color: var(--primary-background-color);
@@ -14,14 +14,14 @@ button[type="submit"], a {
 }
 
 
-button[type="submit"]:hover, a:hover {
+button[type="submit"]:hover, a.button:hover {
     background-color: var(--button-hover-color);
 }
 
 @media screen and (max-width: 600px) {
 
 
-    button[type="submit"], a {
+    button[type="submit"], a.button {
         font-size: 0.875rem;
         width: 175px;
     }
@@ -29,7 +29,7 @@ button[type="submit"]:hover, a:hover {
 @media screen and (max-width: 350px) {
 
 
-    button[type="submit"], a {
+    button[type="submit"], a.button {
         width: 160px;
     }
 }
