@@ -6,6 +6,9 @@ let portionsLastValue = 2;
 console.log(portions.value);
 
 let multiplyAmount = () => {
+    if (portions.value === "" || portions.value <= 0) {
+        return;
+    }
     resetAmounts();
     
     for (let i = 0; i < amount.length; i++) {
