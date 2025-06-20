@@ -6,6 +6,7 @@
     --button-hover-color: #006d00;
     --secondary-color: #f0f0f0;
     --text-color: #333;
+    --index-background-color: #d3d3d32d;
 }
 @font-face {
     font-family: 'Raleway';
@@ -24,46 +25,31 @@
     margin: 0;
     padding: 0;
 }
-
+html, body {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
 body {
-    font-family: 'Raleway', sans-serif;
-}
-
-section#recipe-of-the-day {
-    color: var(--text-color);
-    margin: 30px 80px 30px 80px;
-    font-size: 1.25rem;
-}
-.recipe-of-the-day-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-img.curry {
-    width: 300px;
-    height: 200px;
-    object-fit:cover;
-    border-radius: 10px;
-    object-position: 100% 60%;
-}
-.recipe-of-the-day {
-    padding: 0 20px;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    font-family: 'Raleway', sans-serif;
+    max-width: 1920px;
+    margin: 0 auto;
+    font-size: 1.25rem;
+    height: 100%;
 }
-h2 {
-    margin: 0 0 20px 0;
+main {
+    flex: 1;
+    margin: 0 auto;
 }
 
-p {
-    margin: 0 0 50px 0;
+section {
+    color: var(--text-color);
 }
 
-img.recipe-new-section {
-    width: 100px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 10px;
-    object-position: 100% 60%;
+iframe {
+    width: 100%;
+    border: none;
 }

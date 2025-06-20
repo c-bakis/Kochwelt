@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spätzle mit Hähnchen</title>
+    <link rel="stylesheet" href="recipe.css" />
+    <link rel="stylesheet" href="../style/styles.css">
+    <link rel="shortcut icon" href="../assets/img/logo_small.png" type="image/png">
+    <link rel="stylesheet" href="../style/button.css">
+  </head>
+  <body>
+    <section id="head">
+      <h1>Spätzle mit Hähnchen</h1>
+      <img class="recipe-img" src="../assets/img/one-pot-spaetzle-haehnchen.jpg" alt="" />
+      <div class="tags">
+        <span class="tag first-tag"><img class="icon" src="../assets/img/clock-regular.svg" alt="Zeitaufwand">36 Min.</span>
+        <span class="tag"><img class="icon" src="../assets/img/brain-solid.svg" alt="Schwierigkeitsgrad">simpel</span>
+        <span class="tag"><img class="icon" src="../assets/img/calendar-alt-regular.svg" alt="Rezept erstellt am">08.06.2025</span>
+      </div>
+    </section>
+
+    <section id="recipe">
+      <form onsubmit="multiplyAmount(); return false;">
+        <label for="portions">Zutaten für </label>
+        <input class="no-margin-right"
+          type="number"
+          id="portions"
+          name="portions"
+          value="2"
+          min="1"
+          max="99"
+        />
+        <button class="button" type="submit">Portionen</button>
+      </form>
+      <table>
+        <tbody class="list-of-ingredients">
+           <tr>
+                <td class="left-td"><span class="amount-of-ingredient">200</span> g</td>
+                <td class="right-td">Frische Eierspätzle</td>
+            </tr>
+            <tr>
+                <td class="left-td"><span class="amount-of-ingredient">250</span> g</td>
+                <td class="right-td">Hähnchenbrustfilet(s)</td>
+            </tr>
+            <tr>
+                <td class="left-td"><span class="amount-of-ingredient">1</span></td>
+                <td class="right-td">Stange(n) Lauch</td>
+            </tr>
+            <tr>
+                <td class="left-td"><span class="amount-of-ingredient">1</span> EL</td>
+                <td class="right-td">Pflanzenöl</td>
+            </tr>
+            <tr>
+                <td class="left-td"><span class="amount-of-ingredient">1</span> TL</td>
+                <td class="right-td">Tomatenmark</td>
+            </tr>
+            <tr>
+                <td class="left-td"><span class="amount-of-ingredient">0.5</span> EL</td>
+                <td class="right-td">Sambal Oelek</td>
+            </tr>
+            <tr>
+                <td class="left-td"><span class="amount-of-ingredient">50</span> ml</td>
+                <td class="right-td">Sahne</td>
+            </tr>
+            <tr>
+                <td class="left-td"><span class="amount-of-ingredient">125</span>  ml</td>
+                <td class="right-td">Geflügelbrühe</td>
+            </tr>
+            <tr>
+                <td class="left-td"><span class="amount-of-ingredient">3</span> El</td>
+                <td class="right-td">Gouda, gerieben</td>
+            </tr>
+            <tr>
+                <td class="left-td"><span class="amount-of-ingredient">1</span> EL</td>
+                <td class="right-td">Petersilie, gehackt</td>
+            </tr>
+            <tr>
+                <td class="left-td"></td>
+                <td class="right-td">Salz und Pfeffer, frisch gemahlen</td>
+            </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="nutritional-values">
+      <h2>Nährwerte pro Portion</h2>
+      <table class="nutritional-values-table">
+        <tbody>
+          <tr class="nutritional-values">
+            <th class="border-right">kcal</th>
+            <th class="border-right">Eiweiß</th>
+            <th class="border-right">Fett</th>
+            <th>Kohlenhydrate</th>
+          </tr>
+          <tr class="nutritional-values">
+            <td class="border-right">368</td>
+            <td class="border-right">24,69 g</td>
+            <td class="border-right">19,22 g</td>
+            <td>23,38 g</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="preparation">
+      <h2>Zubereitung</h2>
+      <div class="tags">
+        <span class="tag first-tag"><img class="icon" src="../assets/img/clock-regular.svg" alt="Zeit">Arbeitszeit ca. 15 Min</span>
+        <span class="tag first-tag"><img class="icon" src="../assets/img/clock-regular.svg" alt="Zeit">Kochzeit ca. 6 Min</span>
+        <span class="tag"><img class="icon" src="../assets/img/clock-regular.svg" alt="Zeit">Gesamtzeit ca. 36 Min</span>
+
+      </div>
+      <p class="preparation">
+        Hähnchen trocken tupfen und in Würfel schneiden. Lauch waschen, putzen und in feine Ringe schneiden, Möhren
+        schälen, waschen und in kleine Würfel schneiden. Öl in einem Topf erhitzen und Hähnchen darin ca. 2 Minuten
+        anbraten.
+      </p>
+      <p class="preparation">
+        Lauch und Möhren zugeben und weitere ca. 2 Minuten braten. Tomatenmark und Sambal Oelek zugeben, kurz mitbraten
+        und mit Sahne und Brühe ablöschen. Spätzle zugeben und ca. 2 Minuten köcheln lassen.
+        One-Pot-Spätzle mit Käse verfeinern, mit Salz und Pfeffer abschmecken und mit Petersilie bestreut servieren.
+    </p>
+    </section>
+
+    <section id="creator">
+      <h3>Rezept erstellt von</h3>
+      <div class="creator">
+        <img class="creator-img" src="../assets/img/profile.jpg" alt="Creator Image" />
+          <h4 class="creator-info">Muhammed</h4>
+    </section>
+  </body>
+  <script src="amountsOfIngredients.js"></script>
+</html>

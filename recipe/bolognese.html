@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spaghetti Bolognese</title>
+    <link rel="stylesheet" href="recipe.css" />
+    <link rel="stylesheet" href="../style/styles.css">
+    <link rel="shortcut icon" href="../assets/img/logo_small.png" type="image/png">
+    <link rel="stylesheet" href="../style/button.css">
+  </head>
+  <body>
+    <section id="head">
+      <h1>Spaghetti Bolognese</h1>
+      <img class="recipe-img" src="../assets/img/curry.jpg" alt="" />
+      <div class="tags">
+        <span class="tag first-tag"><img class="icon" src="../assets/img/clock-regular.svg" alt="Zeitaufwand">1 Stunde 5 Min.</span>
+        <span class="tag"><img class="icon" src="../assets/img/brain-solid.svg" alt="Schwierigkeitsgrad">simpel</span>
+        <span class="tag"><img class="icon" src="../assets/img/calendar-alt-regular.svg" alt="Rezept erstellt am">08.06.2025</span>
+      </div>
+    </section>
+
+    <section id="recipe">
+      <form onsubmit="multiplyAmount(); return false;">
+        <label for="portions">Zutaten für </label>
+        <input class="no-margin-right"
+          type="number"
+          id="portions"
+          name="portions"
+          value="2"
+          min="1"
+          max="99"
+        />
+        <button class="button" type="submit">Portionen</button>
+      </form>
+      <table>
+        <tbody class="list-of-ingredients">
+           <tr>
+                <td class="left-td"><span class="amount-of-ingredient">250</span> g</td>
+                <td class="right-td">Spaghetti</td>
+            </tr>
+            <tr>
+                <td class="left-td"><span class="amount-of-ingredient">250</span> g</td>
+                <td class="right-td">Rinderhackfleisch oder Tatar</td>
+            </tr>
+            <tr>
+                <td class="left-td"><span class="amount-of-ingredient">100</span> ml</td>
+                <td class="right-td">Gemüsebrühe (Instant)</td>
+            </tr>
+            <tr>
+                <td class="left-td"><span class="amount-of-ingredient">35</span> g</td>
+                <td class="right-td">Tomatenmark</td>
+            </tr>
+            <tr>
+                <td class="left-td"><span class="amount-of-ingredient">0.5</span> TL</td>
+                <td class="right-td">Oregano</td>
+            </tr>
+            <tr>
+                <td class="left-td"><span class="amount-of-ingredient">100</span> ml</td>
+                <td class="right-td">Sahne</td>
+            </tr>
+            <tr>
+                <td class="left-td"><span class="amount-of-ingredient">200</span> g</td>
+                <td class="right-td">Tomaten, stückige, mit Kräutern z.B. aus dem Tetrapack</td>
+            </tr>
+            <tr>
+                <td class="left-td"><span class="amount-of-ingredient">2</span> El</td>
+                <td class="right-td">Tomatenketchup</td>
+            </tr>
+                <td class="left-td"></td>
+                <td class="right-td">Salz und Pfeffer</td>
+            </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="nutritional-values">
+      <h2>Nährwerte pro Portion</h2>
+      <table class="nutritional-values-table">
+        <tbody>
+          <tr class="nutritional-values">
+            <th class="border-right">kcal</th>
+            <th class="border-right">Eiweiß</th>
+            <th class="border-right">Fett</th>
+            <th>Kohlenhydrate</th>
+          </tr>
+          <tr class="nutritional-values">
+            <td class="border-right">845</td>
+            <td class="border-right">42,00 g</td>
+            <td class="border-right">38,88 g</td>
+            <td>98,41 g</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="preparation">
+      <h2>Zubereitung</h2>
+      <div class="tags">
+        <span class="tag first-tag"><img class="icon" src="../assets/img/clock-regular.svg" alt="Zeit">ca. 25 Minuten</span>
+        <span class="tag"><img class="icon" src="../assets/img/clock-regular.svg" alt="Zeit">Gesamtzeit ca. 1 Stunde 5 Min</span>
+      </div>
+      <p class="preparation">Zwiebel, Knoblauch und Möhre schälen und in feine 
+            Würfel schneiden.
+             Hackfleisch in die Pfanne geben, 
+             langsam erhitzen und im eigenen Fett 
+             unter Rühren anbraten. Salzen und pfeffern. 
+             Zwiebeln, Knoblauch und Möhren dazugeben 
+             und kurz mitbraten. Mit der Brühe ablöschen. 
+             Dann Tomatenmark, Oregano, die stückigen 
+             Tomaten und Tomatenketchup unterrühren. 
+             Etwa 40 Minuten einkochen lassen.
+      </p>
+      <p class="preparation">Spaghetti in Salzwasser bissfest kochen. 
+             Durch ein Sieb abgießen, mit kaltem Wasser 
+             abschrecken und zusammen mit der Sauce 
+             servieren.
+      </p>
+      <p class="preparation"><b>Tipp: </b>Die Sauce Bolognese schmeckt auch 
+             lecker zu Reis. 
+      </p>
+    </section>
+
+    <section id="creator">
+      <h3>Rezept erstellt von</h3>
+      <div class="creator">
+        <img class="creator-img" src="../assets/img/profile.png" alt="Creator Image" />
+          <h4 class="creator-info">Sebastian</h4>
+    </section>
+  </body>
+  <script src="amountsOfIngredients.js"></script>
+</html>

@@ -1,38 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kochwelt</title>
+    <link rel="stylesheet" href="./style/startseite.css">
     <link rel="stylesheet" href="./style/styles.css">
-    <link rel="shortcut icon" href="./assets/img/logo_small.png" type="image/png">
     <link rel="stylesheet" href="./style/button.css">
-    <link rel="stylesheet" href="./assets/font/Raleway-Italic-VariableFont_wght.ttf">
-    <link rel="stylesheet" href="./assets/font/Raleway-VariableFont_wght.ttf">
+    <link rel="stylesheet" href="./shared/footer.css">
 </head>
+
 <body>
-    <section id="recipe-of-the-day">
-        <div class="recipe-of-the-day-container">
-        <img class="curry" src="./assets/img/curry.jpg" alt="">
-        <div class="recipe-of-the-day">
-            <h2>Hähnchencurry</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, deleniti!</p>
-            <button type="submit">Rezept öffnen</button>
+    <main>
+    <section id="rezept-tages">
+    <div class="container">
+        <img class="rezept-tages" src="./assets/img/one-pot-spaetzle-haehnchen.jpg" alt="Rezeptbild">
+        <div class="text-block">
+            <h2>Rezept des Tages</h2>
+            <div class="p-und-button">
+            <p>Du bekommst spontan hungrigen Besuch und weißt nicht,
+                was Du vorsetzen könntest? Mit Zutaten, die jeder zu Hause
+                hat zauberst Du in nur 15 Min. ein leckeres Essen.</p>
+            <button class="button">Rezept öffnen</button>
+        </div>
         </div>
     </div>
-    </section>
+    </div></section>
 
-    <section id="recipes">
+    <section class="recipes" id="recipes">
         <h2>Lust auf was Neues?</h2>
-        <div class="recipes">
-            <img class="recipe-new-section" src="./assets/img/curry.jpg" alt="">
-            <img class="recipe-new-section" src="./assets/img/curry.jpg" alt="">
-            <img class="recipe-new-section" src="./assets/img/curry.jpg" alt="">
+        <div class="recipe-images">
+            <div class="recipe-card">
+                <img src="./assets/img/curry.jpg" />
+                <p>Hähnchencurry</p>
+            </div>
+            <div class="recipe-card">
+                <img src="./assets/img/one-pot-spaetzle-haehnchen.jpg" />
+                <p>Spätzle mit Hähnchen</p>
+            </div>
+            <div class="recipe-card">
+                <img src="./assets/img/one-pot-spaetzle-haehnchen.jpg" />
+                <p>Spätzle mit Hähnchen</p>
+            </div>
         </div>
     </section>
+    <section id="Infos">
+    <div class="info-block">
+        <div class="info-text">
+            <h2>Geht das auch vegetarisch?</h2>
+            <p>Auf jeden Fall. Tausche das Fleisch einfach durch Tofu,
+                Kichererbsen oder Pilze aus – schmeckt genauso lecker!</p>
+        </div>
+        <img src="./assets/img/tofu.jpg" alt="Tofu">
+    </div></section></main>
 
-    <section id="tipp">
-        <img src="" alt="">
-    </section>
+<div id="footer-placeholder"></div>
+ <script>
+  fetch("./shared/footer.html")
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById("footer-placeholder").innerHTML = data;
+    });
+</script>
+
+
 </body>
+
 </html>
