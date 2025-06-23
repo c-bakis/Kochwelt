@@ -42,7 +42,7 @@ textarea {
     min-height: 150px;
 }
 
-button[type="submit"], a {
+.button, button[type="submit"] {
     margin: 0 auto;
     display: block;
 }
