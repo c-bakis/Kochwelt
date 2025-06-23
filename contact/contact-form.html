@@ -6,6 +6,8 @@
     <title>Contact Form</title>
     <link rel="stylesheet" href="contact.css" />
     <link rel="stylesheet" href="../style/styles.css" />
+    <link rel="stylesheet" href="../shared/footer.css">
+    <link rel="stylesheet" href="../shared/headder.css">
     <link
       rel="shortcut icon"
       href="../assets/img/logo_small.png"
@@ -14,6 +16,8 @@
     <link rel="stylesheet" href="../style/button.css" />
   </head>
   <body>
+    <header class="header-placeholder"></header>
+    <main>
     <div class="contact-form-container">
     <form onsubmit="sendMail(event)" id="contact-form">
       <h2>Kontaktiere uns</h2>
@@ -25,6 +29,9 @@
       <textarea name="message" id="message" rows="6" required></textarea>
       <button type="submit">Abschicken</button>
     </form></div>
-  </body>
+  </body></main>
+
+<footer class="footer-placeholder"></footer>
+    <script src="../shared/fetch_footer_header.js"></script>
   <script src="contact.js"></script>
 </html>

@@ -4,9 +4,6 @@ main {
   /* Füllt den restlichen Platz zwischen Header und Footer */
 }
 
-section {
-    
-}
 .container {
   display: flex;
   gap: 24px;
@@ -14,6 +11,7 @@ section {
   max-width: 800px;
     margin: 0 auto;
 padding-bottom: 80px;
+padding-top: 80px;
 }
 
 img.rezept-tages {

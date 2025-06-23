@@ -1,8 +1,6 @@
 
-body {
-    box-sizing: border-box;
-    margin: 150px;
-    max-width: 1920px;
+main {
+    padding: 100px;
 }
 .contact-form-container {
     margin: 0;
@@ -56,20 +54,16 @@ button[type="submit"], a {
     text-align:center;
 }
 
-@media screen and (max-width: 800px) {
 
-    body {
-        margin: 120px;
-    }
-}
-@media screen and (max-width: 602px) {
+@media screen and (max-width: 648px) {
 
-    body {
-        margin: 100px;
+    main {
+        padding: 80px;
     }
     #contact-form, .success-message {
         font-size: 1.1rem;
-    }}
+    }
+}
 @media screen and (max-width: 550px) {
 
     textarea {
@@ -78,8 +72,8 @@ button[type="submit"], a {
 }
 @media screen and (max-width: 450px) {
 
-    body {
-        margin: 60px;
+    main {
+        padding: 60px;
     }
     #contact-form, .success-message {
         font-size: 0.95rem;
@@ -107,7 +101,7 @@ button[type="submit"], a {
 }
 @media screen and (max-width: 350px) {
 
-    body {
-        margin: 50px;
+    main {
+        padding: 50px;
     }
 }

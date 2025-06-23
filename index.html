@@ -9,9 +9,12 @@
     <link rel="stylesheet" href="./style/styles.css">
     <link rel="stylesheet" href="./style/button.css">
     <link rel="stylesheet" href="./shared/footer.css">
+    <link rel="stylesheet" href="./shared/headder.css">
 </head>
 
 <body>
+    <header class="header-placeholder"></header>
+
     <main>
     <section id="rezept-tages">
     <div class="container">
@@ -22,7 +25,7 @@
             <p>Du bekommst spontan hungrigen Besuch und weißt nicht,
                 was Du vorsetzen könntest? Mit Zutaten, die jeder zu Hause
                 hat zauberst Du in nur 15 Min. ein leckeres Essen.</p>
-            <button class="button">Rezept öffnen</button>
+                <a href="./recipe/spätzle-mit-hähnchen.html" class="button">Rezept öffnen</a>
         </div>
         </div>
     </div>
@@ -32,15 +35,15 @@
         <h2>Lust auf was Neues?</h2>
         <div class="recipe-images">
             <div class="recipe-card">
-                <img src="./assets/img/curry.jpg" />
+                <a href="./recipe/hähnchencurry.html"><img src="./assets/img/curry.jpg" /></a>
                 <p>Hähnchencurry</p>
             </div>
             <div class="recipe-card">
-                <img src="./assets/img/one-pot-spaetzle-haehnchen.jpg" />
+                <a href="./recipe/spätzle-mit-hähnchen.html"><img src="./assets/img/one-pot-spaetzle-haehnchen.jpg" /></a>
                 <p>Spätzle mit Hähnchen</p>
             </div>
             <div class="recipe-card">
-                <img src="./assets/img/one-pot-spaetzle-haehnchen.jpg" />
+                <a href="./recipe/spätzle-mit-hähnchen.html"><img src="./assets/img/one-pot-spaetzle-haehnchen.jpg" /></a>
                 <p>Spätzle mit Hähnchen</p>
             </div>
         </div>
@@ -55,16 +58,8 @@
         <img src="./assets/img/tofu.jpg" alt="Tofu">
     </div></section></main>
 
-<div id="footer-placeholder"></div>
- <script>
-  fetch("./shared/footer.html")
-    .then(res => res.text())
-    .then(data => {
-      document.getElementById("footer-placeholder").innerHTML = data;
-    });
-</script>
-
-
+<footer class="footer-placeholder"></footer>
+    <script src="./shared/fetch_footer_header.js"></script>
 </body>
 
 </html>

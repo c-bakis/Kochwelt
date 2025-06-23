@@ -16,17 +16,16 @@ header {
 
 .head {
     display: flex;
-    height: 72px;
+    height: 104px;
     justify-content: space-between;
     align-items: flex-end;
-    max-width: 1200px;
     margin: 0 auto;
     
 }
 
 .logo { 
     display: flex;
-    height: 52px;
+    height: 80px;
     padding-left: 90px;
     align-self: center;
 }
@@ -36,12 +35,12 @@ header {
     align-items: center;
     gap: 25px;
     font-weight: bold;
+    padding-right: 20px;
 }
 
 .link {
     text-decoration: none;
     color: #333333;
-    font-size: 16px;
     font-weight: normal;
     padding: 5px 0;
     position: relative;
