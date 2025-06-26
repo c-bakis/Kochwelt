@@ -4,6 +4,25 @@ max-width: 800px;
 margin: 20px auto; 
 line-height: 1.6; 
 font-family: Arial, sans-serif; 
+width: fit-content;
 }
+@media  screen and (max-width: 550px) {
 
+    main.privacy {
+        padding: 10px; 
+        font-size: 1rem; 
+    }
+}
+@media  screen and (max-width: 380px) {
+
+    main.privacy {
+        font-size: 0.9rem; 
+    }
+}
+@media  screen and (max-width: 350px) {
+
+    main.privacy {
+        font-size: 0.85rem; 
+    }
+}
 
