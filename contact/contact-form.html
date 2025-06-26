@@ -6,8 +6,8 @@
     <title>Contact Form</title>
     <link rel="stylesheet" href="contact.css" />
     <link rel="stylesheet" href="../style/styles.css" />
-    <link rel="stylesheet" href="../shared/footer.css">
-    <link rel="stylesheet" href="../shared/headder.css">
+    <link rel="stylesheet" href="../shared/footer.css" />
+    <link rel="stylesheet" href="../shared/headder.css" />
     <link
       rel="shortcut icon"
       href="../assets/img/logo_small.png"
@@ -18,20 +18,26 @@
   <body>
     <header class="header-placeholder"></header>
     <main>
-    <div class="contact-form-container">
-    <form onsubmit="sendMail(event)" id="contact-form">
-      <h2>Kontaktiere uns</h2>
-      <label for="name">Dein Name: </label>
-      <input type="text" id="name" required />
-      <label for="email">Deine E-Mail: </label>
-      <input type="email" id="email" required />
-      <label for="message">Deine Nachricht: </label>
-      <textarea name="message" id="message" rows="6" required></textarea>
-      <button type="submit">Abschicken</button>
-    </form></div>
-  </body></main>
+      <div class="contact-form-container">
+        <form onsubmit="sendMail(event)" id="contact-form">
+          <h2>Kontaktiere uns</h2>
+          <label for="name">Dein Name: </label>
+          <input name="name" type="text" id="name" required />
+          <label for="email">Deine E-Mail: </label>
+          <input name="email" type="email" id="email" required />
+          <label for="message">Deine Nachricht: </label>
+          <textarea name="message" id="message" rows="6" required></textarea>
+           <div class="privacy">
+            <input type="checkbox" id="privacy" required />
+            <label class="priv" for="privacy"> Die <a class="privacy" href="../assets/Impressum und Datenschutz/Datenschutz.html">Datenschutzerklärung</a> habe ich zur Kenntnis genommen</label>
+          </div> 
+            <button type="submit">Abschicken</button>
+        </form>
+      </div>
+    </main>
 
-<footer class="footer-placeholder"></footer>
+    <footer class="footer-placeholder"></footer>
     <script src="../shared/fetch_footer_header.js"></script>
-  <script src="contact.js"></script>
+    <script src="contact.js"></script>
+  </body>
 </html>

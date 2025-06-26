@@ -39,6 +39,21 @@ input, textarea {
 textarea {
     min-height: 150px;
 }
+a.privacy, .privacy, .priv {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    color: var(--text-color);
+}
+a.privacy:hover {
+        color: var(--button-hover-color);
+
+}
+#privacy {
+    width: fit-content;
+    background-color: var(--button-hover-color);
+}
+    
 
 .button, button[type="submit"] {
     margin: 0 auto;
@@ -56,7 +71,7 @@ textarea {
 @media screen and (max-width: 648px) {
 
     main {
-        padding: 80px;
+        padding: 0px;
     }
     #contact-form, .success-message {
         font-size: 1.1rem;
@@ -70,8 +85,8 @@ textarea {
 }
 @media screen and (max-width: 450px) {
 
-    main {
-        padding: 60px;
+    .contact-form-container {
+        margin: 50px 20px;
     }
     #contact-form, .success-message {
         font-size: 0.95rem;
@@ -82,6 +97,10 @@ textarea {
     h2 {
         font-size: 1.35rem;
         margin-bottom: 15px;
+    }
+    a.privacy, .priv, .privacy {
+        font-size: 0.8rem;
+        margin-top:0;
     }
 }
 @media screen and (max-width: 370px) {
@@ -95,11 +114,5 @@ textarea {
     h2 {
         font-size: 1.25rem;
         margin-bottom: 15px;
-    }
-}
-@media screen and (max-width: 350px) {
-
-    main {
-        padding: 50px;
     }
 }
