@@ -49,9 +49,8 @@
 
 @media  screen and (max-width: 600px) {
   .footer {
-    padding: 20px;
+    padding-top: 20px;
   }
-  
   .socials-container img {
     width: 24px;
     height: 24px;
@@ -68,7 +67,7 @@
 }
 @media screen and (max-width: 402px) {
   .footer {
-    padding: 10px;
+    padding-top: 10px;
   }
   
   .socials-container img {

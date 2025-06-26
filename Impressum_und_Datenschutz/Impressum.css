@@ -1,0 +1,21 @@
+.container {
+    display: block;
+    padding: 50px 20px 20px 20px; 
+    max-width: 800px; 
+    margin: 20px auto; 
+    font-family: Arial, sans-serif; 
+    color: #030303;
+
+}
+
+
+p {
+    font-size: 1.0em;
+    color: #444444;
+    margin-top: 30px;
+
+}
+
+h1, h2, h3 {
+    margin-top: 20px;
+}

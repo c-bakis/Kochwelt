@@ -1,2 +1,6 @@
 *.jpg
 *.png
+*.webp
+
+/Impressum_und_Datenschutz/Datenschutz.html
+/Impressum_und_Datenschutz/Impressum.html

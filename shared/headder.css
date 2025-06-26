@@ -1,7 +1,5 @@
 body {
     display: flex;
-    margin: 0;
-    font-family: Arial, sans-serif;
     background-color: #f9f9f9;
     box-sizing: border-box;
 }
@@ -40,7 +38,8 @@ header {
 
 .link {
     text-decoration: none;
-    color: #333333;
+    font-size: 1.5rem;;
+    color: var(--text-color);
     font-weight: normal;
     padding: 5px 0;
     position: relative;
@@ -81,3 +80,43 @@ header {
 
 }
 
+@media  screen and (max-width: 1540px) {
+
+    .link {
+        font-size: 1.4rem;
+    }
+    
+}
+@media  screen and (max-width: 1124px) {
+
+    .link {
+        font-size: 1.3rem;
+    }
+    
+}
+@media  screen and (max-width: 950px) {
+
+    .link {
+        font-size: 1.2rem;
+    }
+    .logo {
+        height: 60px;
+        padding-left: 50px;
+    }
+}
+@media  screen and (max-width: 755px) {
+
+    .link {
+        font-size: 1.1rem;
+    }
+    .logo {
+        height: 55px;
+        padding-left: 40px;
+    }
+}
+@media  screen and (max-width: 680px) {
+
+    .link {
+        display: none;
+    }
+}
