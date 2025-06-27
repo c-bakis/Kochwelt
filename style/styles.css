@@ -8,6 +8,7 @@
     --text-color: #333;
     --index-background-color: #d3d3d32d;
     --footer-background-color: #363636b4;
+    --footer-text-color: #000;
     --shadow-color: rgba(0, 0, 0, 0.1);
     --header-background-color: #ffffff;
     --privacy-policy-color: #444;
@@ -66,12 +67,13 @@ section {
         --text-color: #e0e0e0;
         --index-background-color: #292929;
         --footer-background-color: #272727;
-        --shadow-color: rgba(255, 255, 255, 0.1);
+        --footer-text-color: #b8b8b8;
+        --shadow-color: rgba(255, 255, 255, 0.2);
         --header-background-color: #1b1b1b;
         --privacy-policy-color: #b0b0b0;
     }
 
-    img.logo {
-        filter: invert(1);
+    img.logo, .socials-container img {
+        filter: invert(60%);
     }
 }
