@@ -1,15 +1,11 @@
-body {
-    display: flex;
-    background-color: #f9f9f9;
-    box-sizing: border-box;
-}
+
 
 header {
-    background-color: #ffffff;
+    background-color: var(--header-background-color);
     width: 100%;
     padding: 0;
     box-sizing: border-box;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 5px var(--shadow-color);
 }
 
 .head {
@@ -80,21 +76,21 @@ header {
 
 }
 
-@media  screen and (max-width: 1540px) {
+@media screen and (max-width: 1540px) {
 
     .link {
         font-size: 1.4rem;
     }
     
 }
-@media  screen and (max-width: 1124px) {
+@media screen and (max-width: 1124px) {
 
     .link {
         font-size: 1.3rem;
     }
     
 }
-@media  screen and (max-width: 950px) {
+@media screen and (max-width: 950px) {
 
     .link {
         font-size: 1.2rem;
@@ -104,7 +100,7 @@ header {
         padding-left: 50px;
     }
 }
-@media  screen and (max-width: 755px) {
+@media screen and (max-width: 755px) {
 
     .link {
         font-size: 1.1rem;
@@ -114,7 +110,7 @@ header {
         padding-left: 40px;
     }
 }
-@media  screen and (max-width: 680px) {
+@media screen and (max-width: 680px) {
 
     .link {
         display: none;

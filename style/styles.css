@@ -8,6 +8,8 @@
     --text-color: #333;
     --index-background-color: #d3d3d32d;
     --footer-background-color: #363636b4;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --header-background-color: #ffffff;
 }
 @font-face {
     font-family: 'Raleway';
@@ -37,11 +39,12 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Raleway', sans-serif;
-    max-width: 1920px;
     margin: 0 auto;
     font-size: 1.25rem;
     height: 100%;
+    background-color: var(--primary-background-color);
 }
+
 main {
     flex: 1;
     margin: 0 auto;
@@ -50,4 +53,19 @@ main {
 
 section {
     color: var(--text-color);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --secondary-background-color: #424242;
+        --primary-background-color: #1b1b1b;
+        --button-color: #4caf50;
+        --button-hover-color: #388e3c;
+        --secondary-color: #2c2c2c;
+        --text-color: #e0e0e0;
+        --index-background-color: #292929;
+        --footer-background-color: #1d1d1d;
+        --shadow-color: rgba(250, 250, 250, 0.1);
+        --header-background-color: #2b2b2b;
+    }
 }
