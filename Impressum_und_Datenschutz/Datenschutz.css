@@ -5,6 +5,14 @@ margin: 20px auto;
 line-height: 1.6; 
 font-family: Arial, sans-serif; 
 width: fit-content;
+color: var(--text-color);
+}
+
+p, ul {
+    color: var(--privacy-policy-color);
+    
+        padding-left: 8px;
+
 }
 @media  screen and (max-width: 550px) {
 
@@ -17,6 +25,13 @@ width: fit-content;
 
     main.privacy {
         font-size: 0.9rem; 
+    }
+
+    h1 {
+        font-size: 1.5rem; 
+    }
+    h2 {
+        font-size: 1.3rem; 
     }
 }
 @media  screen and (max-width: 350px) {
