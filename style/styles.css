@@ -76,4 +76,8 @@ section {
     img.logo, .socials-container img {
         filter: invert(60%);
     }
+    .socials-container img:hover {
+        filter: invert(0%);
+        background-color: var(--button-hover-color);
+    }
 }
