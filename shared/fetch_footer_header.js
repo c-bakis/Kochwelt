@@ -55,7 +55,7 @@ function loadHeader() {
             <li><a href="./index.html">Startseite</a></li>
             <li><a href="./recipe/spätzle-mit-hähnchen.html">Rezept des Tages</a></li>
             <li><a href="./contact/contact-form.html">Kontakt</a></li>
-            <li><a href="./Impressum_und_Datenschutz/Impressum.html">Über uns</a></li>
+            <li><a href="./Impressum_und_Datenschutz/Impressum.html">Impressum</a></li>
             </ul>
             </nav>
 
@@ -84,7 +84,7 @@ function loadHeader() {
             <li><a href="../index.html">Startseite</a></li>
             <li><a href="../recipe/spätzle-mit-hähnchen.html">Rezept des Tages</a></li>
             <li><a href="../contact/contact-form.html">Kontakt</a></li>
-            <li><a href="../Impressum_und_Datenschutz/Impressum.html">Über uns</a></li>
+            <li><a href="../Impressum_und_Datenschutz/Impressum.html">Impressum</a></li>
           </ul>
         </nav>
 
