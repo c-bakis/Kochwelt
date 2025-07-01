@@ -142,11 +142,14 @@ button {
 @media (max-width: 880px) {
   section {
     font-size: 1rem;
-    margin: 0 80px;
+    margin-top: 0;
+    margin-left: 80px;
+    margin-right: 80px;
   }
   div.container {
     flex-direction: column;
     align-items: center;
+    padding-top: 50px;
   }
 
   img.rezept-tages {
@@ -190,8 +193,7 @@ button {
 @media (max-width: 677px) {
   
     div.container {
-        flex-direction: column;
-        align-items: center;
+        padding-top: 30px;
     }
     .recipes img {
         width: 120px;
