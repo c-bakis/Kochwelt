@@ -53,7 +53,7 @@ function loadHeader() {
            <nav class="burger-nav">
             <ul>
             <li><a href="./index.html">Startseite</a></li>
-            <li><a href="./recipe/spätzle-mit-hähnchen.html.html">Rezept des Tages</a></li>
+            <li><a href="./recipe/spätzle-mit-hähnchen.html">Rezept des Tages</a></li>
             <li><a href="./contact/contact-form.html">Kontakt</a></li>
             <li><a href="./Impressum_und_Datenschutz/Impressum.html">Über uns</a></li>
             </ul>
@@ -73,29 +73,27 @@ function loadHeader() {
             <a href="../index.html"><img class="logo" src="../assets/img/logo.png" alt="Kochwelt Logo">
             </a>
                         
-             <input type="checkbox" id="burger-toggle" class="burger-toggle">
-            <label for="burger-toggle" class="burger-label">
-        <span class="bar top-bar"></span>
-        <span class="bar middle-bar"></span>
-        <span class="bar bottom-bar"></span>
-    </label>
-
-            
-           <nav class="burger-nav">
-            <ul>
+        <input type="checkbox" id="burger-toggle" class="burger-toggle">
+        <label for="burger-toggle" class="burger-label">
+          <span class="bar top-bar"></span>
+          <span class="bar middle-bar"></span>
+          <span class="bar bottom-bar"></span>
+        </label> 
+        <nav class="burger-nav">
+          <ul>
             <li><a href="../index.html">Startseite</a></li>
             <li><a href="../recipe/spätzle-mit-hähnchen.html">Rezept des Tages</a></li>
             <li><a href="../contact/contact-form.html">Kontakt</a></li>
             <li><a href="../Impressum_und_Datenschutz/Impressum.html">Über uns</a></li>
-            </ul>
-            </nav>
+          </ul>
+        </nav>
 
-            <div class="div_links">
-                <a class="link" href="../index.html">Start</a>
-                <a class="link active" href="../recipe/spätzle-mit-hähnchen.html">Rezept des Tages</a> 
-                <a class="link" href="../contact/contact-form.html">Kontakt</a>
-                <a class="link" href="../Impressum_und_Datenschutz/Impressum.html">Impressum</a>
-            </div>
+          <div class="div_links">
+            <a class="link" href="../index.html">Start</a>
+            <a class="link active" href="../recipe/spätzle-mit-hähnchen.html">Rezept des Tages</a> 
+            <a class="link" href="../contact/contact-form.html">Kontakt</a>
+            <a class="link" href="../Impressum_und_Datenschutz/Impressum.html">Impressum</a>
+          </div>
         </div>`;
     console.log("Header loaded for other pages");
   }
