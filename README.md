@@ -28,10 +28,13 @@ This is the first group project I am undertaking as part of my advanced training
 <br/>
 <br/>
 
-<img align="left" src="https://github.com/c-bakis/Kochwelt/blob/main/public/assets/img/readme-img/contact-form.png" alt="training page" width="200"/>
-<p align="center"></p>
-<img align="right" src="https://github.com/c-bakis/Kochwelt/blob/main/public/assets/img/readme-img/burger-menu-open.png" alt="list page" width="250px"/>
-<br clear="right"/> <br clear="left"/> <br clear="center"
+<img align="left" src="https://github.com/c-bakis/Kochwelt/blob/main/public/assets/img/readme-img/contact-form.png" alt="training page" width="230" height="600"/>
+<img align="right" src="https://github.com/c-bakis/Kochwelt/blob/main/public/assets/img/readme-img/burger-menu-open.png" alt="list page" width="400px"/>
+
+We have a fully responsive website that includes a burger menu for small devices.
+This ensures that users may easily navigate across the various parts, regardless of device. 
+Furthermore, we focus user experience by including features that provide easy access to favorite recipes and culinary recommendations.
+<br clear="right"/> <br clear="left"/>
 <br/>
 
 ## My Process 
@@ -43,6 +46,10 @@ This is the first group project I am undertaking as part of my advanced training
  - Vanilla JavaScript
 
 ### Learnin experience
+
+For me, collaborating on this project as a team was an entirely new experience. At first, it was challenging to divide up the work, but we all grew as a result of sharing knowledge.
+Instead of using the <iframe> tag, we decided to incorporate the header and footer on every page using JS.
+
 ```bash
 function loadHeader() {
   let header = document.querySelector(".header-placeholder");
