@@ -6,9 +6,6 @@
 \
 \
 This is the first group project I am undertaking as part of my advanced training at the Developer Akademie.
-\
-\
-[Try Kochwelt online](https://deluxe-granita-d4d27e.netlify.app/)
 <br>
 <br>
 <br clear="left"/>
@@ -17,11 +14,10 @@ This is the first group project I am undertaking as part of my advanced training
 
 
   
-<img align="left" src="https://github.com/c-bakis/Kochwelt/blob/main/public/assets/img/readme-img/kochwelt-main-light.png" alt="main page light mode" width="430"/>
-<img align="right" src="https://github.com/c-bakis/Kochwelt/blob/main/public/assets/img/readme-img/kochwelt-main-dark.png" alt="main page dark mode" width="430"/>
+<img align="left" src="https://github.com/c-bakis/Kochwelt/blob/main/public/assets/img/readme-img/kochwelt-main-light.png" alt="main page light mode" width="470"/>
+<img align="left" src="https://github.com/c-bakis/Kochwelt/blob/main/public/assets/img/readme-img/kochwelt-main-dark.png" alt="main page dark mode" width="470"/>
 
 <br clear="left">
-<br clear="right">
 
 <p align="center">Light mode by default - Dark mode if the user has enabled dark mode in their browser</p>
 <br/>
@@ -29,11 +25,10 @@ This is the first group project I am undertaking as part of my advanced training
 <br/>
 
 <img align="left" src="https://github.com/c-bakis/Kochwelt/blob/main/public/assets/img/readme-img/contact-form.png" alt="training page" width="230" height="600"/>
-<img align="right" src="https://github.com/c-bakis/Kochwelt/blob/main/public/assets/img/readme-img/burger-menu-open.png" alt="list page" width="400px"/>
+<img align="left" src="https://github.com/c-bakis/Kochwelt/blob/main/public/assets/img/readme-img/burger-menu-open.png" alt="list page" width="400px"/>
 
 We have a fully responsive website that includes a burger menu for small devices.
 This ensures that users may easily navigate across the various parts, regardless of device. 
-Furthermore, we focus user experience by including features that provide easy access to favorite recipes and culinary recommendations.
 <br clear="right"/> <br clear="left"/>
 <br/>
 
